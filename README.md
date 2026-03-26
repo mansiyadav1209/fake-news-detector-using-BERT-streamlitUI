@@ -125,6 +125,7 @@ Run:
 
 python prepare_data.py
 
+
 This will create:
 
 fake_news.csv

@@ -1,46 +1,61 @@
 # Python cache
+Fake.csv
+True.csv
+fake_news.csv
 results/
 .env
 __pycache__/
 *.pyc
-*.pyo
-*.pyd
 
-# Virtual environment
-venv/
-env/
-ENV/
 
-# Jupyter Notebook checkpoints
-.ipynb_checkpoints/
 
-# Logs
-logs/
-*.log
 
-# OS files
-.DS_Store
-Thumbs.db
 
-# Model files (VERY IMPORTANT)
-fake_news_bert/
-*.bin
 
-# Hugging Face cache
-.cache/
-huggingface/
 
-# Streamlit cache
-.streamlit/
 
-# FastAPI / Uvicorn temp files
-*.sqlite3
 
-# Environment variables
-.env
 
-# VS Code settings
-.vscode/
 
-# PyCharm settings
-.idea/
+
+# *.pyo
+# *.pyd
+
+# # Virtual environment
+# venv/
+# env/
+# ENV/
+
+# # Jupyter Notebook checkpoints
+# .ipynb_checkpoints/
+
+# # Logs
+# logs/
+# *.log
+
+# # OS files
+# .DS_Store
+# Thumbs.db
+
+# # Model files (VERY IMPORTANT)
+# fake_news_bert/
+# *.bin
+
+# # Hugging Face cache
+# .cache/
+# huggingface/
+
+# # Streamlit cache
+# .streamlit/
+
+# # FastAPI / Uvicorn temp files
+# *.sqlite3
+
+# # Environment variables
+# .env
+
+# # VS Code settings
+# .vscode/
+
+# # PyCharm settings
+# .idea/
