@@ -1,4 +1,7 @@
+users.db
 fake_news_bert/
+*.csv
+*.safetensors
 Fake.csv
 True.csv
 fake_news.csv
@@ -6,6 +9,7 @@ results/
 .env
 __pycache__/
 *.pyc
+
 
 
 
