@@ -21,7 +21,7 @@ This makes the project **accurate, scalable, and production-ready**.
 ---
 
 
-🚀 Features
+# Features
 
 ✅ Fake News Detection using BERT
 ✅ Real-Time News Verification
@@ -37,7 +37,7 @@ This makes the project **accurate, scalable, and production-ready**.
 
 ---
 
-# 🧠 How It Works
+#  How It Works
 
 1. User Authentication
 Users first create an account using Signup and then Login securely using SQLite database authentication.
@@ -107,7 +107,7 @@ fake-news-detecter/
 
 
 
-⚙️ Installation & Setup (Step by Step)
+# ⚙️ Installation & Setup (Step by Step)
 
 # Step 1 — Clone Repository
 git clone https://github.com/mansiyadav1209/fake-news-detector.git

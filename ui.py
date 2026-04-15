@@ -4,7 +4,7 @@ import auth
 
 auth.create_user_table()
 
-# ---------------- CSS + HTML + JS ----------------
+
 def load_css():
     st.markdown("""
     <style>
@@ -195,12 +195,31 @@ elif choice == "Prediction":
                     json={"text": news}
                 )
 
-                result = response.json()["prediction"]
+                # result = response.json()["prediction"]
+                data = response.json()
+                result = data["prediction"]
+                confidence = data["confidence"]
+                verification = data["verification"]
 
                 if result == "REAL":
-                    st.markdown(f'<div style="background-color:#14532d;color:white;padding:12px;border-radius:8px;font-weight:bold;">✅ {result}</div>', unsafe_allow_html=True)
+                    st.markdown(
+                        f'<div style="background-color:#14532d;color:white;padding:12px;border-radius:8px;font-weight:bold;">'
+                        f'✅ {result} <br> Confidence: {confidence}% <br> {verification}'
+                        f'</div>',
+                        unsafe_allow_html=True
+                    )
                 else:
-                    st.markdown(f'<div style="background-color:#7f1d1d;color:white;padding:12px;border-radius:8px;font-weight:bold;">❌ {result}</div>', unsafe_allow_html=True)
+                    st.markdown(
+                        f'<div style="background-color:#7f1d1d;color:white;padding:12px;border-radius:8px;font-weight:bold;">'
+                        f'❌ {result} <br> Confidence: {confidence}% <br> {verification}'
+                        f'</div>',
+                        unsafe_allow_html=True
+                    )
+
+                # if result == "REAL":
+                #     st.markdown(f'<div style="background-color:#14532d;color:white;padding:12px;border-radius:8px;font-weight:bold;">✅ {result}</div>', unsafe_allow_html=True)
+                # else:
+                #     st.markdown(f'<div style="background-color:#7f1d1d;color:white;padding:12px;border-radius:8px;font-weight:bold;">❌ {result}</div>', unsafe_allow_html=True)
                
 
             except:
