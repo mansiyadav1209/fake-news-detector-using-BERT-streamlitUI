@@ -110,7 +110,7 @@ fake-news-detecter/
 # ⚙️ Installation & Setup (Step by Step)
 
 # Step 1 — Clone Repository
-git clone https://github.com/mansiyadav1209/fake-news-detector.git
+git clone https://github.com/mansiyadav1209/fake-news-detector-using-BERT-streamlitUI.git
 cd fake-news-detector
 
 # Step 2 — Install Requirements
