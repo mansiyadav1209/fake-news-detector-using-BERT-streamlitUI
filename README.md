@@ -111,7 +111,7 @@ fake-news-detecter/
 
 # Step 1 — Clone Repository
 git clone https://github.com/mansiyadav1209/fake-news-detector-using-BERT-streamlitUI.git
-cd fake-news-detector
+cd fake-news-detector-using-BERT-streamlitUI
 
 # Step 2 — Install Requirements
 pip install -r requirements.txt
